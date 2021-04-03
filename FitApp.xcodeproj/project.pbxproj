@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048905072433782D00611665 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048905062433782D00611665 /* AppDelegate.swift */; };
+		048905092433782D00611665 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048905082433782D00611665 /* SceneDelegate.swift */; };
+		0489050B2433782D00611665 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489050A2433782D00611665 /* ViewController.swift */; };
+		0489050E2433782D00611665 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0489050C2433782D00611665 /* Main.storyboard */; };
+		048905102433783000611665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0489050F2433783000611665 /* Assets.xcassets */; };
+		048905132433783000611665 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048905112433783000611665 /* LaunchScreen.storyboard */; };
+		0489051B2433855600611665 /* ChestScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489051A2433855600611665 /* ChestScreen.swift */; };
+		0489051D2433B39900611665 /* BodybuildingSide.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0489051C2433B39900611665 /* BodybuildingSide.storyboard */; };
+		0489051F2433BA8700611665 /* BackScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489051E2433BA8700611665 /* BackScreen.swift */; };
+		048905212433BED100611665 /* ShouldersScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048905202433BED100611665 /* ShouldersScreen.swift */; };
+		048905252433C28700611665 /* CorpusScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048905242433C28700611665 /* CorpusScreen.swift */; };
+		048905272433C4C400611665 /* ArmsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048905262433C4C400611665 /* ArmsScreen.swift */; };
+		048905292433C6E600611665 /* LegsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048905282433C6E600611665 /* LegsScreen.swift */; };
+		0489052B2434854C00611665 /* MuscleupScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489052A2434854C00611665 /* MuscleupScreen.swift */; };
+		0489052D243488A000611665 /* Calistheniks.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0489052C243488A000611665 /* Calistheniks.storyboard */; };
+		0489052F24348B9300611665 /* FronleverScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489052E24348B9300611665 /* FronleverScreen.swift */; };
+		0489053124348D9E00611665 /* HandStandingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489053024348D9E00611665 /* HandStandingScreen.swift */; };
+		04890533243491F400611665 /* PlanshScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04890532243491F400611665 /* PlanshScreen.swift */; };
+		048905352434951E00611665 /* FreestyleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048905342434951E00611665 /* FreestyleScreen.swift */; };
+		0489053724349B0700611665 /* NoTabataScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489053624349B0700611665 /* NoTabataScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		048905032433782D00611665 /* FitnessAppLastVersion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessAppLastVersion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		048905062433782D00611665 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		048905082433782D00611665 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0489050A2433782D00611665 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0489050D2433782D00611665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0489050F2433783000611665 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		048905122433783000611665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		048905142433783000611665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0489051A2433855600611665 /* ChestScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChestScreen.swift; sourceTree = "<group>"; };
+		0489051C2433B39900611665 /* BodybuildingSide.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BodybuildingSide.storyboard; sourceTree = "<group>"; };
+		0489051E2433BA8700611665 /* BackScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackScreen.swift; sourceTree = "<group>"; };
+		048905202433BED100611665 /* ShouldersScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShouldersScreen.swift; sourceTree = "<group>"; };
+		048905242433C28700611665 /* CorpusScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorpusScreen.swift; sourceTree = "<group>"; };
+		048905262433C4C400611665 /* ArmsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmsScreen.swift; sourceTree = "<group>"; };
+		048905282433C6E600611665 /* LegsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegsScreen.swift; sourceTree = "<group>"; };
+		0489052A2434854C00611665 /* MuscleupScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleupScreen.swift; sourceTree = "<group>"; };
+		0489052C243488A000611665 /* Calistheniks.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calistheniks.storyboard; sourceTree = "<group>"; };
+		0489052E24348B9300611665 /* FronleverScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FronleverScreen.swift; sourceTree = "<group>"; };
+		0489053024348D9E00611665 /* HandStandingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandStandingScreen.swift; sourceTree = "<group>"; };
+		04890532243491F400611665 /* PlanshScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanshScreen.swift; sourceTree = "<group>"; };
+		048905342434951E00611665 /* FreestyleScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreestyleScreen.swift; sourceTree = "<group>"; };
+		0489053624349B0700611665 /* NoTabataScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoTabataScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		048905002433782D00611665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048904FA2433782D00611665 = {
+			isa = PBXGroup;
+			children = (
+				048905052433782D00611665 /* FitnessAppLastVersion */,
+				048905042433782D00611665 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		048905042433782D00611665 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				048905032433782D00611665 /* FitnessAppLastVersion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		048905052433782D00611665 /* FitnessAppLastVersion */ = {
+			isa = PBXGroup;
+			children = (
+				048905062433782D00611665 /* AppDelegate.swift */,
+				048905082433782D00611665 /* SceneDelegate.swift */,
+				0489050A2433782D00611665 /* ViewController.swift */,
+				0489051A2433855600611665 /* ChestScreen.swift */,
+				0489051E2433BA8700611665 /* BackScreen.swift */,
+				048905202433BED100611665 /* ShouldersScreen.swift */,
+				048905242433C28700611665 /* CorpusScreen.swift */,
+				048905262433C4C400611665 /* ArmsScreen.swift */,
+				048905282433C6E600611665 /* LegsScreen.swift */,
+				0489052A2434854C00611665 /* MuscleupScreen.swift */,
+				0489052E24348B9300611665 /* FronleverScreen.swift */,
+				0489053024348D9E00611665 /* HandStandingScreen.swift */,
+				04890532243491F400611665 /* PlanshScreen.swift */,
+				048905342434951E00611665 /* FreestyleScreen.swift */,
+				0489053624349B0700611665 /* NoTabataScreen.swift */,
+				0489050C2433782D00611665 /* Main.storyboard */,
+				0489051C2433B39900611665 /* BodybuildingSide.storyboard */,
+				0489052C243488A000611665 /* Calistheniks.storyboard */,
+				0489050F2433783000611665 /* Assets.xcassets */,
+				048905112433783000611665 /* LaunchScreen.storyboard */,
+				048905142433783000611665 /* Info.plist */,
+			);
+			path = FitnessAppLastVersion;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		048905022433782D00611665 /* FitnessAppLastVersion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048905172433783000611665 /* Build configuration list for PBXNativeTarget "FitnessAppLastVersion" */;
+			buildPhases = (
+				048904FF2433782D00611665 /* Sources */,
+				048905002433782D00611665 /* Frameworks */,
+				048905012433782D00611665 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitnessAppLastVersion;
+			productName = FitnessAppLastVersion;
+			productReference = 048905032433782D00611665 /* FitnessAppLastVersion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		048904FB2433782D00611665 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Данил Овчаренко";
+				TargetAttributes = {
+					048905022433782D00611665 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = 048904FE2433782D00611665 /* Build configuration list for PBXProject "FitApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 048904FA2433782D00611665;
+			productRefGroup = 048905042433782D00611665 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				048905022433782D00611665 /* FitnessAppLastVersion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		048905012433782D00611665 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048905132433783000611665 /* LaunchScreen.storyboard in Resources */,
+				048905102433783000611665 /* Assets.xcassets in Resources */,
+				0489050E2433782D00611665 /* Main.storyboard in Resources */,
+				0489051D2433B39900611665 /* BodybuildingSide.storyboard in Resources */,
+				0489052D243488A000611665 /* Calistheniks.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		048904FF2433782D00611665 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0489050B2433782D00611665 /* ViewController.swift in Sources */,
+				0489052B2434854C00611665 /* MuscleupScreen.swift in Sources */,
+				04890533243491F400611665 /* PlanshScreen.swift in Sources */,
+				0489053124348D9E00611665 /* HandStandingScreen.swift in Sources */,
+				048905072433782D00611665 /* AppDelegate.swift in Sources */,
+				0489053724349B0700611665 /* NoTabataScreen.swift in Sources */,
+				048905352434951E00611665 /* FreestyleScreen.swift in Sources */,
+				0489051F2433BA8700611665 /* BackScreen.swift in Sources */,
+				048905252433C28700611665 /* CorpusScreen.swift in Sources */,
+				048905092433782D00611665 /* SceneDelegate.swift in Sources */,
+				0489051B2433855600611665 /* ChestScreen.swift in Sources */,
+				048905272433C4C400611665 /* ArmsScreen.swift in Sources */,
+				0489052F24348B9300611665 /* FronleverScreen.swift in Sources */,
+				048905212433BED100611665 /* ShouldersScreen.swift in Sources */,
+				048905292433C6E600611665 /* LegsScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0489050C2433782D00611665 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0489050D2433782D00611665 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		048905112433783000611665 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048905122433783000611665 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		048905152433783000611665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		048905162433783000611665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		048905182433783000611665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = URXJ9G4DT3;
+				INFOPLIST_FILE = FitnessAppLastVersion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OvcharenkoDan.FitnessAppLastVersion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		048905192433783000611665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = URXJ9G4DT3;
+				INFOPLIST_FILE = FitnessAppLastVersion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OvcharenkoDan.FitnessAppLastVersion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		048904FE2433782D00611665 /* Build configuration list for PBXProject "FitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048905152433783000611665 /* Debug */,
+				048905162433783000611665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048905172433783000611665 /* Build configuration list for PBXNativeTarget "FitnessAppLastVersion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048905182433783000611665 /* Debug */,
+				048905192433783000611665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 048904FB2433782D00611665 /* Project object */;
+}
